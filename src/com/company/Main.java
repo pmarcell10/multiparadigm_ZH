@@ -72,16 +72,10 @@ public class Main {
 				System.out.println("Anagram found in dictionary: " + word);
 			}
 		});
+		System.out.println("Search finished.");
 	}
 
 	 public static void main(String[] args) {
 		InDictionary(readWord());
-		// System.out.println(isAnagram(readWord(),"lmaa"));	
-		/*ArrayList<String> dictionary = readDictionary("hu_HU.dic");
-		if(isAnagram(readWord(),dictionary.get(0))) {
-			System.out.println(dictionary.get(0));
-		}*/
-		 
-		 
 	 }
 }
